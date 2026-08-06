@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 3</title>
+</head>
+<body>
+
+<script>
+let texto = "";
+let dato;
+
+while ((dato = prompt("Escriba un texto")) != null) {
+    if (texto == "") {
+        texto = dato;
+    } else {
+        texto = texto + "-" + dato;
+    }
+}
+
+alert(texto);
+</script>
+
+</body>
+</html>
