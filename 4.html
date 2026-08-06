@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 4</title>
+</head>
+<body>
+
+<script>
+let suma = 0;
+let numero;
+
+while ((numero = prompt("Ingrese un número")) != null) {
+
+    if (isNaN(numero)) {
+        alert("No es un número");
+    } else {
+        suma = suma + Number(numero);
+    }
+}
+
+alert("La suma total es: " + suma);
+</script>
+
+</body>
+</html>
